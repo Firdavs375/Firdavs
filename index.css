@@ -214,8 +214,87 @@ header {
     margin-top: 26px;
 }
 
-footer{
+footer {
     margin-top: 84px;
     padding: 51px;
     margin-left: 150px;
+}
+
+
+
+@media (max-width: 576px) {
+    .list_items {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 27px;
+    }
+
+    .sarlavha1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #21243D;
+        padding-top: 30px;
+    }
+
+
+    .text1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #21243D;
+    }
+
+    header {
+        margin-top: 40px;
+    }
+
+    .btn1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    .btn_div1 {
+        text-align: center;
+    }
+
+    .soz_div {
+        display: flex;
+        gap: 892px;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-top: 84px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text_oxirgi {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center !important;
+        color: #21243D;
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    .icon_div{
+        margin-top: 10px;
+    }
+
 }
